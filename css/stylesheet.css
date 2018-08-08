@@ -1,0 +1,218 @@
+body {
+  font-family: "Montserrat";
+}
+
+h1,h2,h3,h4,h5 {
+  font-family: "Raleway";
+  text-transform: uppercase;
+  font-size: 3em;
+  font-weight: 800!important;
+  line-height: 1.6em;
+  display: inline-block;
+}
+
+nav ul li a, button { font-family: "Raleway"; font-weight: 800!important;  }
+
+.hoverable { transition: 0.2s;}
+
+.hoverable:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
+.webOrange {
+    background: rgb(249, 56, 34)!important;
+}
+
+.textWebOrange {
+    color: rgb(249, 56, 34)!important;
+}
+
+.webOrangeOverlay {
+    background-color: rgb(249, 56, 34, 0.5)!important;
+}
+
+.lightWebOrange {
+    background: rgb(251, 106, 89)!important;
+}
+
+.textLightWebOrange {
+    color: rgb(251, 106, 89)!important;
+}
+
+.lightWebOrangeOverlay {
+    background-color: rgb(251, 106, 89, 0.5)!important;
+}
+
+.superLightWebOrange {
+    background: rgb(252, 156, 145)!important;
+}
+
+.textSuperLightWebOrange {
+    color: rgb(252, 156, 145)!important;
+}
+
+.superLightWebOrangeOverlay {
+    background-color: rgb(252, 156, 145, 0.5)!important;
+}
+
+.blackOverlay {
+    background-color: rgb(0, 0, 0, 0.5)!important;
+}
+
+.whiteOverlay {
+    background-color: rgb(255, 255, 255, 0.5)!important;
+}
+
+.superLightWebOrangeOverlay, .whiteOverlay, .blackOverlay, .lightWebOrangeOverlay, .webOrangeOverlay {
+    width: 100%;
+    height: 100%;
+}
+
+.bkgImg {
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
+.fullPage, .eightyPage, .twentyPage{
+    width: 100%;
+}
+
+.fadeInFirst, .fadeInSecond {
+    display:none;
+}
+
+.pageBreak {
+    padding: 40px 20px 20px 20px;
+    height: 580px;
+    width: 100%;
+}
+
+.hideme{ opacity:0; }
+.dragLeft{ position:relative; left: -250%; }
+
+.smallIcon {font-size: 35px;}
+.mediumIcon {font-size: 60px;}
+.bigIcon {font-size: 120px;}
+.hugeIcon {font-size: 160px;}
+
+#firstSection, #aboutFirstSection {
+    margin-top: -64px;
+}
+
+#frontPageBkgImg{
+    background: url("../img/lookaway.jpg");
+}
+
+#frontPageBkgImg2 {
+    background: url("../img/stair-smile.jpg");
+}
+
+#frontPageBkgImg, #frontPageBkgImg2 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.caption {
+    position: absolute;
+    left: 20vmin;
+    bottom: 10vmin;
+}
+
+.caption h3 {
+    font-size: 6vmin;
+    padding: 10px 20px 10px 20px;
+}
+
+#webExpert, #computerScientist {
+    position: relative;
+    left: -300%;
+}
+
+.topHeader {
+    min-height: 20%;
+    padding: 35px 20px 35px 20px!important;
+}
+
+.topHeader h1, .topHeader h2, .topHeader h3 {
+    z-index: 1;
+}
+
+.bottomHeader {
+    min-height: 70%;
+    padding: 65px 20px 50px 20px!important;
+}
+
+.headerFooter {
+    min-height: 10%;
+    padding: 25px 20px 40px 20px!important;
+}
+
+.laptop {
+    z-index: 2;
+    width: 250px;
+    position: relative;
+    top: 6px;
+}
+
+#followMeFooter {
+    padding: 20px 20px 20px 20px;
+}
+
+#followMeFooter .mediumIcon{
+    margin: 20px;
+    transition: 0.2s;
+}
+
+
+#followMeFooter .smallIcon {
+    margin: 12px;
+    transition: 0.2s;
+}
+
+#followMeFooter .mediumIcon:hover {
+    transform: scale(1.2);
+    color: #000!important;
+}
+
+#contactPage {
+    padding: 30px 20px 20px 80px;
+}
+
+/***
+*   ABOUT PAGE
+***/
+
+#aboutFirstSection {
+    overflow-x: hidden;
+}
+
+#aboutTextContainer {
+    padding: 90px 20px 20px 60px;
+}
+
+#aboutTextContainer h3, #aboutTextContainer h4, #aboutTextContainer .flow-text div {
+    margin-left: 10px;
+}
+
+#aboutFirstSection .fa-globe {
+    font-size: 25vmin!important;
+}
+
+.aboutOrangeDiv {
+    display: table; 
+    overflow: hidden;
+}
+
+/**
+*   CASE PAGE
+**/
+.caseDiv .bkgImg {
+    background-size: cover!important;
+    background-position: center!important;
+    background-repeat: no-repeat!important;
+}
+
+

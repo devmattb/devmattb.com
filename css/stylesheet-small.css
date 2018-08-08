@@ -1,0 +1,46 @@
+@media screen and (max-width: 450px) {
+    
+
+    .caption {
+        left: 5vmin;
+    }
+    .caption h3 {
+        font-size: 7vmin;
+    }
+    
+    #contactPage {
+        padding: 40px 20px 20px 20px;
+    }
+    
+    #aboutFirstSection .fa-globe {
+        font-size: 30vmin!important;
+    }
+    
+    .aboutOrangeDiv {
+        height: 300px;
+    }
+    
+    .aboutOrangeDiv .fa-globe {
+        position: relative;
+        bottom: -25px;
+    }
+    
+    #aboutTextContainer h3, #aboutTextContainer h4 {
+        font-size: 8vmin;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #aboutTextContainer {
+        padding: 30px 20px 20px 45px;
+    }
+    
+    #aboutTextContainer h3, #aboutTextContainer h4 {
+        width: 180%;
+    }
+    
+    #aboutTextContainer div {
+        width: 135%;
+    }
+}
+

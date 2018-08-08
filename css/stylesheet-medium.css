@@ -1,0 +1,26 @@
+@media screen and (max-width: 992px) {
+    .laptop {
+        width: 200px;
+    }
+    
+    #aboutTextContainer h3, #aboutTextContainer h4,  #aboutTextContainer div {
+        width: 100%;
+    }
+    
+    #aboutFirstSection .fa-globe {
+        font-size: 28vmin!important;
+    }
+    
+    .aboutOrangeDiv {
+        height: 350px;
+    }
+    
+    .aboutOrangeDiv .fa-globe {
+        position: relative;
+        bottom: -30px;
+    }
+    
+}
+
+
+
