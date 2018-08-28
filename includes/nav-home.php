@@ -33,36 +33,36 @@
 </div>
 
 <ul id="slide-out" class="sidenav">
-    <li>
-        <a href="/">
-            <i class="fas fa-home webTextOrange" aria-hidden="true"></i>
-            HOME
-        </a>
+  <li>
+      <a href="/">
+          <i class="fas fa-home textWebOrange" aria-hidden="true"></i>
+          <span>HOME</span>
+      </a>
+  </li>
+  <li>
+      <a href="/about">
+          <i class="fas fa-user textWebOrange" aria-hidden="true"></i>
+          <span>ABOUT</span>
+      </a>
+  </li>
+  <li>
+      <a href="/case">
+          <i class="fas fa-code textWebOrange" aria-hidden="true"></i>
+          <span>CASE</span>
+      </a>
+  </li>
+  <li>
+      <a href="#newsletterModal">
+          <i class="fas fa-newspaper textWebOrange" aria-hidden="true"></i>
+          <span>NEWSLETTER</span>
+      </a>
     </li>
-    <li>
-        <a href="/flow">
-            <i class="fas fa-star webTextOrange" aria-hidden="true"></i>
-            ABOUT
-        </a>
-    </li>
-    <li>
-        <a href="/case">
-            <i class="fas fa-code webTextOrange" aria-hidden="true"></i>
-            CASE
-        </a>
-    </li>
-    <li>
-        <a class="modal-trigger" href="#newsletterModal">
-            <i class="fas fa-newspaper webTextOrange" aria-hidden="true"></i>
-            NEWSLETTER
-        </a>
-      </li>
-    <li>
-        <a class="modal-trigger" href="#contactModal">
-            <i class="fas fa-comment webTextOrange" aria-hidden="true"></i>
-            CONTACT
-        </a>
-    </li>
+  <li>
+      <a href="#contactModal">
+          <i class="fas fa-comment textWebOrange" aria-hidden="true"></i>
+          <span>CONTACT</span>
+      </a>
+  </li>
 </ul>
 
 

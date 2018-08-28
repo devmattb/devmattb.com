@@ -8,7 +8,7 @@
   <meta property="og:title" content="devmattb - About">
   <meta name="twitter:title" content="devmattb - About">
 
-  <!-- Webpage Thumbnail pic SEO TODOOOO-->
+  <!-- Webpage Thumbnail pic SEO TODOOOO -->
   <meta itemprop="image" content="../img/thumbnail_website_about.PNG">
   <meta property="og:image" content="../img/thumbnail_website_about.PNG">
   <meta name="twitter:image" content="../img/thumbnail_website_about.PNG">
