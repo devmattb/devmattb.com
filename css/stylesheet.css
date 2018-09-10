@@ -219,6 +219,27 @@ nav ul li a, button { font-family: "Raleway"; font-weight: 800!important;  }
 }
 
 /**
+*   CASE / POST PAGE
+**/
+.fullPage h1 {
+    margin-top: 120px;
+}
+
+.fullPage div .caseBreadText {
+    margin-top: -40px;
+}
+
+.caseTitle h1 hr {
+    width: 400px!important;
+    margin-left: -20px;
+    margin-top: 12px;
+}
+
+.caseBreadText {
+    margin-top: -25px;
+}
+
+/**
 *   Contact Modal
 **/
 #contactModal a i {

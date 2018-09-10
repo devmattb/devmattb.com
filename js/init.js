@@ -23,6 +23,7 @@ $(document).ready(function(){
     **/
     $(".fullPage").css('height', $(window).height());
     $(".eightyPage").css('height', $(window).height()*0.8);
+    $(".sixtyFivePage").css('height',  $(window).height()*0.65);
     $(".fourtyFivePage").css('height',  $(window).height()*0.45);
     $(".thirtyFivePage").css('height',  $(window).height()*0.35);
     $(".twentyPage").css('height',  $(window).height()*0.2);
@@ -32,6 +33,7 @@ $(document).ready(function(){
       //resize just happened, makes sure fullpage is always fullpage.
       $(".fullPage").css('height', $(window).height());
       $(".eightyPage").css('height', $(window).height()*0.8);
+      $(".sixtyFivePage").css('height',  $(window).height()*0.65);
       $(".fourtyFivePage").css('height',  $(window).height()*0.45);
       $(".thirtyFivePage").css('height',  $(window).height()*0.35);
       $(".twentyPage").css('height',  $(window).height()*0.2);
