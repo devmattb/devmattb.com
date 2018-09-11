@@ -41,12 +41,16 @@ CREATE TABLE `emailList` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_bin AUTO_INCREMENT=1;
 
-CREATE TABLE `casePosts` (
+CREATE TABLE `case` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
-  `caseTitle` varchar(255) COLLATE utf8_bin NOT NULL,
-  `caseText` varchar(10000) COLLATE utf8_bin NOT NULL,
-  `imgSrc` varchar(255) COLLATE utf8_bin NOT NULL,
-  `demoLink` varchar(255) COLLATE utf8_bin NOT NULL,
+  `introTitle` varchar(255) COLLATE utf8_bin NOT NULL,
+  `midTitle` varchar(255) COLLATE utf8_bin NOT NULL,
+  `outroTitle` varchar(255) COLLATE utf8_bin NOT NULL,
+  `introHtmlText` varchar(4000) COLLATE utf8_bin NOT NULL,
+  `midHtmlText` varchar(1000) COLLATE utf8_bin NOT NULL,
+  `outroHtmlText` varchar(4000) COLLATE utf8_bin NOT NULL,
+  `summaryHtmlText` varchar(1000) COLLATE utf8_bin NOT NULL,
+  `bkgImgSrc` varchar(255) COLLATE utf8_bin NOT NULL,
   `createdAt` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_bin AUTO_INCREMENT=1;

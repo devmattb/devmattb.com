@@ -20,7 +20,7 @@
       <ul class="right hide-on-med-and-down" id="desktop-demo">
         <li id="homeNavItem"><a href="/">HOME</a></li>
         <li id="aboutNavItem"><a href="/about">ABOUT</a></li>
-        <li id="caseNavItem"><a href="/case">CASE</a></li>
+        <!-- <li id="caseNavItem"><a href="/case">CASE</a></li> -->
         <li><a class="newsletterModalTrigger modal-trigger" href="#newsletterModal">NEWSLETTER</a></li>
         <li><a class="contactModalTrigger modal-trigger" href="#contactModal">CONTACT</a></li>
       </ul>
@@ -46,10 +46,10 @@
         </a>
     </li>
     <li>
-        <a href="/case">
+        <!-- <a href="/case">
             <i class="fas fa-code textWebOrange" aria-hidden="true"></i>
             <span>CASE</span>
-        </a>
+        </a> -->
     </li>
     <li>
         <a href="#newsletterModal">
