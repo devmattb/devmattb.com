@@ -83,7 +83,9 @@
         <!-- CTA BUTTON -->
         <div class="col s12 left webOrange headerFooter center white-text ">
             <h5 class="hideme">What can I do for you?</h5><br/><br/>
-            <button class="btn-large white textWebOrange waves-effect waves-light hideme">READ MORE</button>
+            <a href="/about">
+              <button class="btn-large white textWebOrange waves-effect waves-light hideme">READ MORE</button>
+            </a>
         </div>
     </div>
   </div>
@@ -107,7 +109,7 @@
       </div>
       <br/>
       <div class="col s12 center">
-        <button class=" btn-large white-text webOrange waves-effect waves-light hideme">VIEW MY CASE</button>
+        <button class="disabled btn-large white-text webOrange waves-effect waves-light hideme">VIEW MY CASE</button>
       </div>
   </div>
 
