@@ -50,3 +50,15 @@ CREATE TABLE `casePosts` (
   `createdAt` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_bin AUTO_INCREMENT=1;
+
+CREATE TABLE `article` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `title` varchar(255) COLLATE utf8_bin NOT NULL,
+  `subtitle` varchar(255) COLLATE utf8_bin NOT NULL,
+  `figureSrc` varchar(255) COLLATE utf8_bin NOT NULL,
+  `figureText` varchar(255) COLLATE utf8_bin NOT NULL,
+  `breadText` varchar(5000) COLLATE utf8_bin NOT NULL,
+  `vidSrc` varchar(255) COLLATE utf8_bin NOT NULL,
+  `createdAt` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_bin AUTO_INCREMENT=1;

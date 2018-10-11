@@ -2,6 +2,7 @@
 <html>
 
 <head>
+
   <!-- Title SEO -->
   <title>devmattb - Home</title>
   <meta itemprop="name" content="devmattb - Home">
@@ -12,6 +13,29 @@
   <meta itemprop="image" content="img/thumbnail_website.PNG">
   <meta property="og:image" content="img/thumbnail_website.PNG">
   <meta name="twitter:image" content="img/thumbnail_website.PNG">
+
+  <!-- SEO General -->
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="description" content="Need tech consulting? Or help with a website or webapp? Devmattb is a Software Engineer with expertise within Computer Science.">
+  <meta author="devmattb" content=""/>
+  <meta name="robots" content="index">
+  <meta name="keywords" content="devmattb,matt,bergstrom,mattias,bergström,developer,programmer,software engineer"/>
+
+  <!-- Google+ / Schema.org -->
+  <meta itemprop="description" content="Need tech consulting? Or help with a website or webapp? Devmattb is a Software Engineer with expertise within Computer Science.">
+  <link href="https://plus.google.com/u/0/113043733443648554208" rel="publisher">
+
+  <!-- Open Graph Facebook -->
+  <meta property="og:description" content="Need tech consulting? Or help with a website or webapp? Devmattb is a Software Engineer with expertise within Computer Science."/>
+  <meta property="og:url" content="http://devmattb.com/">
+  <meta property="og:site_name" content="devmattb"/>
+  <meta property="og:type" content="website">
+
+  <!-- Twitter -->
+  <meta name="twitter:description" content="Need tech consulting? Or help with a website or webapp? Devmattb is a Software Engineer with expertise within Computer Science.">
+  <meta name="twitter:url" content="http://devmattb.com/">
+  <meta name="twitter:card" content="Need tech consulting? Or help with a website or webapp? Devmattb is a Software Engineer with expertise within Computer Science.">
+  <meta name="twitter:site" content="@devmattb">
 
   <!-- STANDARD HEADER -->
   <?php include("includes/header.html") ?>
@@ -28,7 +52,7 @@
 <body>
 
   <?php include("includes/nav-home.php"); ?>
-    
+
   <!-- INTRO -->
   <div id="firstSection" class="fullPage">
     <div class="row">
@@ -51,17 +75,17 @@
   <div>
     <div class="row">
         <div class="topHeader col s12 webOrange white-text fadeInOnView">
-            
+
             <!-- LARGE/MED -->
             <div class="col m3 l4 hide-on-small-only">
                 <img class="hideme laptop" src="img/laptop.png"/>
             </div>
-            
+
             <!-- SMALL -->
             <div class="col s12 hide-on-med-and-up center">
                 <img class="hideme laptop" src="img/laptop.png"/>
             </div>
-            
+
             <div class="col s12 m9 l8 center">
                 <h1 class="hide-on-med-and-down dragLeft">MY MISSION</h1>
                 <h2 class="hide-on-large-only hide-on-small-only dragLeft">MY MISSION</h2>
@@ -73,12 +97,12 @@
             </div>
             <div class="hideme col s11 m11 l9 left">
                 <h4 class="black-text">Create. Inspire. Document.</h4> <br/>
-                <h1 style="margin-top: -5px; margin-left: -15px;" class="hugeIcon textWebOrange hide-on-med-and-down">Repeat.</h1>  
-                <h1 style="margin-top: -5px; margin-left: -5px;" class="bigIcon textWebOrange hide-on-large-only hide-on-small-only">Repeat.</h1> 
-                <h1 style="margin-top: -5px; margin-left: -2px;" class="mediumIcon textWebOrange  hide-on-med-and-up">Repeat.</h1> 
+                <h1 style="margin-top: -5px; margin-left: -15px;" class="hugeIcon textWebOrange hide-on-med-and-down">Repeat.</h1>
+                <h1 style="margin-top: -5px; margin-left: -5px;" class="bigIcon textWebOrange hide-on-large-only hide-on-small-only">Repeat.</h1>
+                <h1 style="margin-top: -5px; margin-left: -2px;" class="mediumIcon textWebOrange  hide-on-med-and-up">Repeat.</h1>
             </div>
         </div>
-        
+
         <!-- CTA BUTTON -->
         <div class="col s12 left webOrange headerFooter center white-text ">
             <h5 class="hideme">What can I do for you?</h5><br/><br/>
@@ -86,10 +110,10 @@
         </div>
     </div>
   </div>
-    
+
   <!-- WHY I DO WHAT I DO -->
   <div class="row col s12 pageBreak left">
-      
+
       <div class="container">
         <h3 class="hide-on-small-only dragLeft">MY JOURNEY</h3>
         <h4 class="hide-on-med-and-up dragLeft">MY JOURNEY</h4>
@@ -106,16 +130,16 @@
       </div>
       <br/>
       <div class="col s12 center">
-        <button class=" btn-large white-text webOrange waves-effect waves-light hideme">VIEW MY CASE</button>
+        <button class="disabled btn-large white-text webOrange waves-effect waves-light hideme">VIEW MY CASE</button>
       </div>
   </div>
-    
+
   <!-- FOLLOW ME  -->
   <div class="fullPage">
     <div class="row">
         <div id="frontPageBkgImg2" class="eightyPage col s6"></div>
         <div class="eightyPage col s6 black center">
-            
+
         <!-- LARGE -->
         <span style="font-size:12em!important; margin-top: 18vmin;" class="fa-stack fa-3x white-text hide-on-med-and-down hideme">
             <i class="fas fa-comment-alt fa-stack-2x"></i>
@@ -125,8 +149,8 @@
                       <span  style="font-size:60px; margin-left: -15px;" >JOURNEY</span>
                   </h1>
             </span>
-        </span>	
-            
+        </span>
+
         <!-- MED -->
         <span style="font-size:8em!important; margin-top: 200px;" class="fa-stack fa-3x white-text hide-on-large-only hide-on-small-only hideme">
             <i class="fas fa-comment-alt fa-stack-2x"></i>
@@ -136,8 +160,8 @@
                       <span  style="font-size:40px; margin-left: -5px; position:relative; top: -35px;" >JOURNEY</span>
                   </h1>
             </span>
-        </span>	
-            
+        </span>
+
         <!-- SMALL -->
         <span style="font-size:5em!important; margin-top: 170px;" class="fa-stack fa-3x white-text hide-on-med-and-up hideme">
             <i class="fas fa-comment-alt fa-stack-2x"></i>
@@ -147,11 +171,11 @@
                       <span  style="font-size:25px; margin-left: -5px; position:relative; top: -50px;" >JOURNEY</span>
                   </h1>
             </span>
-        </span>	
-            
-            
+        </span>
+
+
         </div>
-        
+
         <div id="followMeFooter" class="col s12 webOrange white-text center">
             <div class="hide-on-small-only dragLeft">
                 <a href="http://bit.ly/2sEWznz" target="_blank" rel="nofollow">
@@ -182,10 +206,10 @@
                 </a>
             </div>
         </div>
-            
+
     </div>
   </div>
-    
+
   <!-- CONTACT -->
   <div class="fullPage">
     <div class="row">
@@ -194,41 +218,41 @@
                 Got Questions? <br/>
                 <small style="position:relative; top: -10px;" class="grey-text text-darken-3 smallIcon">Feel free to fill in the contact form below.</small>
             </h1>
-            
+
             <h3 class="hide-on-large-only hide-on-small-only">
                 Got Questions? <br/>
                 <small style="position:relative; top: -10px; font-size: 20px;" class="grey-text text-darken-3">Feel free to fill in the contact form below.</small>
             </h3>
-            
+
             <h4 class="hide-on-med-and-up">
                 Got Questions? <br/>
                 <small style="position:relative; top: -10px; font-size: 16px;" class="grey-text text-darken-3">Feel free to fill in the contact form below.</small>
             </h4>
-            
+
              <div class="row col s10 l8">
                 <form class="col s12">
-                    
+
                   <div class="row">
                     <div class="input-field col s12 m10 l8">
                       <input placeholder="Eg. Mark Zuckerberg" id="fullName" type="text" class="validate">
                       <label for="fullName">Full Name</label>
                     </div>
                   </div>
-                    
+
                   <div class="row">
                     <div class="input-field col s12 m10 l8">
                       <input placeholder="Eg. zucks@facebook.com"  id="Email" type="email" class="validate">
                       <label for="Email">Email</label>
                     </div>
                   </div>
-                    
+
                   <div class="row">
                     <div class="input-field col s12 m10 l8">
                       <textarea id="msg" class="materialize-textarea"></textarea>
                       <label for="msg">Message</label>
                     </div>
                   </div>
-                    
+
                   <div class="row">
                     <div class="input-field col s12 l6">
                       <button class="btn-large webOrange">SEND!</button>
@@ -238,7 +262,7 @@
 
                 </form>
               </div>
-        
+
         </div>
     </div>
   </div>
