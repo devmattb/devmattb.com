@@ -59,6 +59,7 @@
 
 <body>
 
+  <?php include("../includes/modals.php"); ?>
   <?php include("../includes/nav.php"); ?>
 
   <!-- INTRO -->

@@ -51,6 +51,7 @@
 
 <body>
 
+  <?php include("includes/modals.php"); ?>
   <?php include("includes/nav-home.php"); ?>
 
   <!-- INTRO -->
@@ -106,7 +107,9 @@
         <!-- CTA BUTTON -->
         <div class="col s12 left webOrange headerFooter center white-text ">
             <h5 class="hideme">What can I do for you?</h5><br/><br/>
-            <button class="btn-large white textWebOrange waves-effect waves-light hideme">READ MORE</button>
+            <a href="/about">
+              <button class="btn-large white textWebOrange waves-effect waves-light hideme">READ MORE</button>
+            </a>
         </div>
     </div>
   </div>
