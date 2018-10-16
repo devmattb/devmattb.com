@@ -9,21 +9,20 @@
 
   $id = $_GET["id"];
 
-  $title = strtolower(getSecureData($_POST["title"]));
   $subtitle = getSecureData($_POST["subtitle"]);
   $breadText = getSecureData($_POST["breadText"]);
 
   $sql = "";
 
-  $sql = 'UPDATE article SET title="'.$title.'", subtitle="'.$subtitle.'", breadText="'.$breadText.'" WHERE id='.$id;
+  $sql = 'UPDATE article SET subtitle="'.$subtitle.'", breadText="'.$breadText.'" WHERE id='.$id;
 
   // Execute command:
   $query = $db->prepare($sql);
   $query->execute();
 
-  $_SESSION["error"] = 0; // Success
+  $_SESSION["error"] = 3; // Success
 
   // Redirect
-  header("Location: ../admin/edit-article-gui/");
+  header("Location: ../../admin/edit-article-gui/");
 
 ?>

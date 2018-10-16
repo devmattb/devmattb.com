@@ -45,22 +45,21 @@
           <span>ABOUT</span>
       </a>
   </li>
-<<<<<<< HEAD
+
   <li>
       <a href="/articles">
           <i class="fas fa-newspaper textWebOrange" aria-hidden="true"></i>
           <span>ARTICLES</span>
-=======
+
   <!-- <li>
       <a href="/case">
           <i class="fas fa-code textWebOrange" aria-hidden="true"></i>
           <span>CASE</span>
->>>>>>> fd448b75f23ab0e8a71434b2f1996a39801d3f05
       </a>
   </li> -->
   <li>
       <a href="#newsletterModal">
-          <i class="fas fa-newspaper textWebOrange" aria-hidden="true"></i>
+          <i class="fas fa-envelope textWebOrange" aria-hidden="true"></i>
           <span>NEWSLETTER</span>
       </a>
     </li>

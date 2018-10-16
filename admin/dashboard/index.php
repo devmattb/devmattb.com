@@ -55,7 +55,7 @@
       </div>
       <div class="card-action">
         <a href="../new-article/"><button style="margin: 10px;" class="btn green waves-effect waves-light hoverable"> CREATE </button></a>
-        <a href="../edit-article/"><button style="margin: 10px;" class="btn blue waves-effect waves-light hoverable"> EDIT </button></a>
+        <a href="../edit-article-gui/"><button style="margin: 10px;" class="btn blue waves-effect waves-light hoverable"> EDIT </button></a>
         <a href="../delete-article/"><button style="margin: 10px;" class="btn red waves-effect waves-light hoverable"> DELETE </button></a>
       </div>
     </div>

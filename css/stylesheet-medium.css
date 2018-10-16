@@ -3,6 +3,10 @@
         width: 200px;
     }
 
+    .caption {
+      bottom: 18vmin;
+    }
+
     #aboutTextContainer h3, #aboutTextContainer h4,  #aboutTextContainer div {
         width: 100%;
     }

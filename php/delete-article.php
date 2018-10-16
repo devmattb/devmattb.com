@@ -17,13 +17,25 @@
   $id = getSecureData($_GET["id"]);
   $figureSrc = getSecureData($_GET["figureSrc"]);
 
+  $q = "SELECT * FROM article WHERE id=".$id;
+
+  $data = getContents($db, $q);
+  $dirname = "";
+  foreach($data as $row) {
+      $dirname = str_replace(" ", "-", $row["title"]);
+  }
+
   $sql = "DELETE FROM article WHERE id=$id";
 
   // Execute command:
   $query = $db->prepare($sql);
   $query->execute();
 
-  unlink($figureSrc);
+  unlink($figureSrc); // Delete article img
+
+  // Delete article folder. TODO: Not working!!
+  array_map('unlink', glob("../$dirname/*.*"));
+  rmdir($dirname);
 
   // Success!
   $_SESSION["error"] = 5;

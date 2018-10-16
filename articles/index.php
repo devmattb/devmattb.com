@@ -50,15 +50,23 @@
     $(document).ready(function(){
         $("#articlesNavItem").css("border-bottom", "2px solid #F93822");
 
-        // runs after the entire page has loaded
-        $(window).bind("load", function() {
-          // store the image link inside a variable from 'src' attribute
-          var getImageSrc = $('#hero-wrap img').attr('src');
-          // style background image
-          $('#hero-wrap').css({
-             'background-size' : 'cover',
-             'background-image' : 'url(' + getImageSrc + ')'
-          });
+        // Scale in articles in random order.
+        var randomMillisec;
+        var max = 600;
+        var min = 200;
+        // $("").each(function(i, obj) {
+        //     randomMillisec = Math.floor(Math.random() * (max - min + 1)) + min;
+        //     // window.setTimeout(function(){
+        //       $(this).removeClass("scale-out");
+        //     // }, randomMillisec);
+        // });
+
+        $(this).find('.scale-transition').each( function(k, v) {
+            randomMillisec = Math.floor(Math.random() * (max - min + 1)) + min;
+            var el = this;
+                setTimeout(function () {
+                $(el).removeClass("scale-out");
+            }, randomMillisec);
         });
     });
   </script>
@@ -80,8 +88,24 @@
         $numIt = 1;
         // Get all necessary data...
         foreach($data as $row) {
-          // $title = $row["title"]; TODO: Not used so far!
+          $title = $row["title"];
+          $capTitle = ucwords($title);
+          $titleLink = str_replace(" ", "-", $title);
           $figureSrc = $row["figureSrc"];
+
+      ?>
+        <style>
+            <?php echo
+                "#article".$numIt." {
+                    background-image: url('".$figureSrc."');
+                    background-size: cover;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                }"
+            ?>
+        </style>
+
+      <?php
 
           if ( $itemNo == 1) {
       ?>
@@ -89,29 +113,27 @@
         <div class="row col s12">
 
             <!-- ITEM #1 -->
-            <div class="fourtyFivePage col s5 m3 l2">
-                <div class="caseDiv fourtyFivePage col-content z-depth-2 hoverable">
-                    <!-- Background + Overlay TODO!!!-->
-                    <div id="hero-wrap">
+            <a href="<?php echo $titleLink?>">
+                <div class="fourtyFivePage col s5 m3 l2 scale-transition scale-out tooltipped" data-tooltip="<?php echo $capTitle ?>">
+                    <div id="<?php echo 'article'.$numIt?>" class="fourtyFivePage col-content z-depth-2 hoverable">
+                        <!-- Overlay -->
                         <div class="webOrangeOverlay"></div>
-                        <img src="<?php echo $figureSrc?>">
                     </div>
                 </div>
-            </div>
+            </a>
       <?php
 
           } else if ( $itemNo == 2 ) {
       ?>
             <!-- ITEM #2 -->
-            <div class="fourtyFivePage col s7 m9 l10 ">
-                <div class="caseDiv fourtyFivePage col-content z-depth-2 hoverable">
-                    <!-- Background + Overlay -->
-                    <div id="hero-wrap">
-                        <div class="webOrangeOverlay"></div>
-                        <img src="<?php echo $figureSrc?>">
+            <a href="<?php echo $titleLink?>">
+                <div class="fourtyFivePage col s7 m9 l10 scale-transition scale-out tooltipped" data-tooltip="<?php echo $capTitle ?>">
+                    <div id="<?php echo 'article'.$numIt?>" class="fourtyFivePage col-content z-depth-2 hoverable">
+                        <!-- Overlay -->
+                        <div class="lightWebOrangeOverlay"></div>
                     </div>
                 </div>
-            </div>
+            </a>
 
         </div>
       <?php
@@ -121,28 +143,26 @@
         <div class="row col s12">
 
             <!-- ITEM #1 -->
-            <div class="thirtyFivePage col s6">
-                <div class="caseDiv thirtyFivePage col-content z-depth-2 hoverable blackOverlay">
-                    <!-- Background + Overlay -->
-                    <div style="<?php echo 'background:url('.$figureSrc.');'?>" class="bkgImg">
+            <a href="<?php echo $titleLink?>">
+                <div class="thirtyFivePage col s6 scale-transition scale-out tooltipped" data-tooltip="<?php echo $capTitle ?>">
+                    <div id="<?php echo 'article'.$numIt?>" class="thirtyFivePage col-content z-depth-2 hoverable blackOverlay">
+                        <!-- Overlay -->
                         <div class="blackOverlay"></div>
                     </div>
-
                 </div>
-            </div>
+            </a>
       <?php
           } else if ( $itemNo == 4 ) {
       ?>
             <!-- ITEM #2 -->
-            <div class="thirtyFivePage col s6">
-                <div class="caseDiv thirtyFivePage col-content z-depth-2 hoverable ">
-                    <!-- Background + Overlay -->
-                    <div style="<?php echo 'background:url('.$figureSrc.');'?>" class="bkgImg">
+            <a href="<?php echo $titleLink?>">
+                <div class="thirtyFivePage col s6 scale-transition scale-out tooltipped" data-tooltip="<?php echo $capTitle ?>">
+                    <div id="<?php echo 'article'.$numIt?>" class="thirtyFivePage col-content z-depth-2 hoverable ">
+                        <!-- Overlay -->
                         <div class="superLightWebOrangeOverlay"></div>
                     </div>
-
                 </div>
-            </div>
+            </a>
 
         </div>
       <?php
@@ -152,26 +172,26 @@
         <div class="row col s12">
 
             <!-- ITEM #1 -->
-            <div class="twentyPage col s8 m7 l8">
-                <div class="caseDiv twentyPage col-content z-depth-2 hoverable">
-                    <!-- Background + Overlay -->
-                    <div style="<?php echo 'background:url('.$figureSrc.');'?>" class="bkgImg">
+            <a href="<?php echo $titleLink?>">
+                <div class="twentyPage col s8 m7 l8 scale-transition scale-out tooltipped" data-tooltip="<?php echo $capTitle ?>">
+                    <div id="<?php echo 'article'.$numIt?>" class="twentyPage col-content z-depth-2 hoverable">
+                        <!-- Background + Overlay -->
                         <div class="whiteOverlay"></div>
                     </div>
                 </div>
-            </div>
+            </a>
       <?php
           } else if ( $itemNo == 6 ) {
       ?>
             <!-- ITEM #2 -->
-            <div class="twentyPage col s4 m5 l4">
-                <div class="caseDiv twentyPage col-content z-depth-2 hoverable ">
-                    <!-- Background + Overlay -->
-                    <div style="<?php echo 'background:url('.$figureSrc.');'?>" class="bkgImg">
+            <a href="<?php echo $titleLink?>">
+                <div class="twentyPage col s4 m5 l4 scale-transition scale-out tooltipped" data-tooltip="<?php echo $capTitle ?>">
+                    <div id="<?php echo 'article'.$numIt?>" class="twentyPage col-content z-depth-2 hoverable ">
+                        <!-- Overlay -->
                         <div class="webOrangeOverlay"></div>
                     </div>
                 </div>
-            </div>
+            </a>
 
         </div>
       <?php

@@ -47,6 +47,9 @@
   <!-- HOME SCRIPT -->
   <script src="js/home-scripts.js" type="text/javascript"></script>
 
+  <!-- BOUNCING ARROW -->
+  <link type="text/css" rel="stylesheet" href="css/bouncing-arrow.css"/>
+
 </head>
 
 <body>
@@ -69,6 +72,10 @@
                 <h3 id="computerScientist" style="margin-top:-10px;" class="white"> Computer Scientist </h3>
             </div>
         </div>
+    </div>
+    <!-- Bouncing Arrow -->
+    <div class="downArrow bounce">
+      <i style="font-size: 40px;" class="fas fa-chevron-down white-text"></i>
     </div>
   </div>
 
@@ -118,8 +125,8 @@
   <div class="row col s12 pageBreak left">
 
       <div class="container">
-        <h3 class="hide-on-small-only dragLeft">MY JOURNEY</h3>
-        <h4 class="hide-on-med-and-up dragLeft">MY JOURNEY</h4>
+        <h3 class="hide-on-small-only dragLeft">MY ATTITUDE</h3>
+        <h4 class="hide-on-med-and-up dragLeft">MY ATTITUDE</h4>
         <p style="margin-top: 5px;" class="flow-text hideme">
             I've always had this creative itch that needed scratching.<br/>
             I love to build things, and always have.

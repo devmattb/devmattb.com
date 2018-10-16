@@ -55,13 +55,7 @@
             Edit this article:
           </h4>
           <br/>
-
-          <!-- title : -->
-          <div class="input-field col s12">
-            <input name="title" value="<?php echo $title?>" id="title" type="text">
-            <label for="title">Title</label>
-          </div>
-
+          
           <!-- subtitle: -->
           <div class="input-field col s12">
             <input name="subtitle" value="<?php echo $subtitle?>" id="subtitle" type="text">

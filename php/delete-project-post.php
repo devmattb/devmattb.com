@@ -16,7 +16,7 @@
 
   $id = getSecureData($_GET["id"]);
   $imgSrc = getSecureData($_GET["imgSrc"]);
-
+  
   $sql = "DELETE FROM projectPosts WHERE id=$id";
 
   // Execute command:
