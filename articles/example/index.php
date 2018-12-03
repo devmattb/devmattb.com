@@ -67,6 +67,8 @@
   $humanTime = time_elapsed_string($createdAt);
   ?>
 
+  <?php $title = ucwords($title); $subtitle = ucwords($subtitle); ?>
+
   <!-- Title SEO DYNAMIC -->
   <title><?php echo $title." | ".$subtitle ?></title>
   <meta itemprop="name" content="<?php echo $title." | ".$subtitle ?>">
@@ -105,6 +107,7 @@
       $keywordCount++;
     }
     $keywords += "devmattb"; // Last keyword.
+    $keywords = ucwords( $keywords );
   ?>
   <meta name="keywords" content="<?php echo $keywords ?>"/>
 
