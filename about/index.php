@@ -69,20 +69,16 @@
         <!-- LARGE/MEDIUM -->
         <div class="fullPage aboutOrangeDiv col l4 m5 webOrange hide-on-small-only">
             <div class="center" style="display: table-cell; vertical-align: middle;">
-                <i class="fadeInFirst fas fa-globe white-text"></i>
+                <i class="fadeInFirst fas fa-user-tie white-text"></i>
             </div>
         </div>
         <div id="aboutTextContainer" class="fullPage col l8 s7 white hide-on-small-only">
             <h3 class="fadeInFirst textWebOrange hide-on-med-and-down">
-                DIGITALIZING COMPANIES.
-                <br/>
-                ONE KEYSTROKE AT A TIME.
+                WHO IS MATT BERGSTROM / "DEVMATTB"?
             </h3>
 
             <h4 class="fadeInFirst textWebOrange hide-on-large-only">
-                DIGITALIZING COMPANIES.
-                <br/>
-                ONE KEYSTROKE AT A TIME.
+                WHO IS MATT BERGSTROM / "DEVMATTB"?
             </h4>
 
             <br/>
@@ -90,21 +86,26 @@
              <div class="flow-text fadeInSecond" >
 
                  <div style="margin-top: 20px;">
-                     I believe that every company can improve their digital presence.
+                     Matt is a driven young buck who aspires to be a great leader, and one of the most well-documented entrepreneurs of his generation. Matt is currently pursuing a Computer Science Bachelor's Degree from The Royal Institiute of Technology (KTH), in Stockholm, and will recieve his degree in June, 2019. He also co-founded a limited IT company by the name MMR Solutions AB, in May 2018, which he currently has the role of CTO in.
                  </div><br/>
                  <div>
-                     In today’s era it’s all about getting "sticky", and claiming your digital space on the internet.
+                     Matt has experience in web and game development, and has been programming since he was 14 years old. He knows how to code in over 10 programming languages. Because of this, he is MMR Solutions IT-guru. 
                  </div><br/>
 
                 <div>
-                    When you do that, you secure traffic to your organization.
+                    But Matt hasn't only sat in front of the computer. In 2012, he was a centerpiece in a basketball team that won the silver medal in the National Championship in Sweden. He was also voted "Role Model" of the class, every year between 2009-2013. Similar remarks has been made by teachers he had between 2013-2016.
                  </div><br/>
+                 
                 <div>
-                    Because I have 7 years of web experience, I know how to get "sticky".
+                    Additionally, Matt is a extremely social and driven person who also runs a Youtube Channel where hundreds of people view his videos, with a total watch time of over 7000 minutes - a number which is, to this day, rising. 
                 </div><br/>
 
                 <div>
-                    With my website design and development experience, together with SEO, social media and link structure competence, I can help you claim your digital space on the web.
+                    Furthermore, Matt gives lectures in schools, acting as an ambassador of the developer profession, with the purpose of diversifying the tech industry and decrease the shortage of software engineers. This is also documented on his Youtube Channel.
+                 </div><br/>
+                 
+                <div>
+                    Matt’s mission is to expose himself to as many learning opportunities as possible, share his findings, and inspire people along the way. He wants to provide value for people who aspire to live healthy and happy lives, while at the same time attracting driven people to his digital circle. Follow him on social platforms such as Instagram and Facebook, to see how the story ends.
                 </div>
 
             </div>
@@ -114,36 +115,39 @@
         <!-- SMALL ONLY -->
         <div class="aboutOrangeDiv col s12 webOrange hide-on-med-and-up">
             <div class="center" style="display: table-cell; vertical-align: middle;">
-                <i class="fadeInFirst fas fa-globe white-text"></i>
+                <i class="fadeInFirst fas fa-user-tie white-text"></i>
             </div>
         </div>
         <div id="aboutTextContainer" class="col l8 s7 white hide-on-med-and-up">
 
             <h4 class="fadeInFirst textWebOrange hide-on-large-only">
-                DIGITALIZING COMPANIES.
-                <br/>
-                ONE KEYSTROKE AT A TIME.
+                WHO IS MATT BERGSTROM / "DEVMATTB"?
             </h4>
 
             <br/>
              <div  class="flow-text fadeInSecond" style="font-size: 3.5vmin;">
 
                  <div style="margin-top: 20px;">
-                     I believe that every company can improve their digital presence.
+                     Matt is a driven young buck who aspires to be a great leader, and one of the most well-documented entrepreneurs of his generation. Matt is currently pursuing a Computer Science Bachelor's Degree from The Royal Institiute of Technology (KTH), in Stockholm, and will recieve his degree in June, 2019. He also co-founded a limited IT company by the name MMR Solutions AB, in May 2018, which he currently has the role of CTO in.
                  </div><br/>
                  <div>
-                     In today’s era it’s all about getting "sticky", and claiming your digital space on the internet.
+                     Matt has experience in web and game development, and has been programming since he was 14 years old. He knows how to code in over 10 programming languages. Because of this, he is MMR Solutions IT-guru. 
                  </div><br/>
 
                 <div>
-                    When you do that, you secure traffic to your organization.
+                    But Matt hasn't only sat in front of the computer. In 2012, he was a centerpiece in a basketball team that won the silver medal in the National Championship in Sweden. He was also voted "Role Model" of the class, every year between 2009-2013. Similar remarks has been made by teachers he had between 2013-2016.
                  </div><br/>
+                 
                 <div>
-                    Because I have 7 years of web experience, I know how to get "sticky".
+                    Additionally, Matt is a extremely social and driven person who also runs a Youtube Channel where hundreds of people view his videos, with a total watch time of over 7000 minutes - a number which is, to this day, rising. 
                 </div><br/>
 
                 <div>
-                    With my website design and development experience, together with SEO, social media and link structure competence, I can help you claim your digital space on the web.
+                    Furthermore, Matt gives lectures in schools, acting as an ambassador of the developer profession, with the purpose of diversifying the tech industry and decrease the shortage of software engineers. This is also documented on his Youtube Channel.
+                 </div><br/>
+                 
+                <div>
+                    Matt’s mission is to expose himself to as many learning opportunities as possible, share his findings, and inspire people along the way. He wants to provide value for people who aspire to live healthy and happy lives, while at the same time attracting driven people to his digital circle. Follow him on social platforms such as Instagram and Facebook, to see how the story ends.
                 </div>
 
             </div>
