@@ -194,13 +194,22 @@ nav ul li a, button { font-family: "Raleway"; font-weight: 800!important;  }
     margin-left: 10px;
 }
 
-#aboutFirstSection .fa-globe {
+#aboutFirstSection .fa-user-tie {
     font-size: 25vmin!important;
+}
+
+#aboutLargeOrange {
+    position:fixed;
+    top:0px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    float: left;
+    height: 100vh;
 }
 
 .aboutOrangeDiv {
     display: table;
-    overflow: hidden;
 }
 
 /**

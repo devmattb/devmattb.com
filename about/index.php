@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html style="height: 100%;">
 
 <head>
   <!-- Title SEO -->
@@ -52,12 +52,14 @@
         window.setTimeout(function(){$(".fadeInFirst").fadeIn(600);}, 200);
 
         window.setTimeout(function(){$(".fadeInSecond").fadeIn(600);}, 500);
+        
     });
   </script>
+    
 
 </head>
 
-<body>
+<body style="height: 100%;">
 
   <?php include("../includes/modals.php"); ?>
   <?php include("../includes/nav.php"); ?>
@@ -67,9 +69,9 @@
     <div class="row" style="margin-bottom: 0px!important;">
 
         <!-- LARGE/MEDIUM -->
-        <div class="fullPage aboutOrangeDiv col l4 m5 webOrange hide-on-small-only">
+        <div id="aboutLargeOrange" class="aboutOrangeDiv col l4 m5 webOrange hide-on-small-only left">
             <div class="center" style="display: table-cell; vertical-align: middle;">
-                <i class="fadeInFirst fas fa-user-tie white-text"></i>
+                <img style="width: 150px; border: 1px solid #333;" src="../img/profilepic.jpg" class="round circle z-depth-3" />
             </div>
         </div>
         <div id="aboutTextContainer" class="fullPage col l8 s7 white hide-on-small-only">
@@ -97,7 +99,7 @@
                  </div><br/>
                  
                 <div>
-                    Additionally, Matt is a extremely social and driven person who also runs a Youtube Channel where hundreds of people view his videos, with a total watch time of over 7000 minutes - a number which is, to this day, rising. 
+                    Additionally, Matt is a extremely social and driven person who also runs a <a target="_blank" href="https://www.youtube.com/channel/UCNmXzVXkobH69xQPgTX-qGA">Youtube Channel</a> where hundreds of people view his videos, with a total watch time of over 7000 minutes - a number which is, to this day, rising. 
                 </div><br/>
 
                 <div>
@@ -105,7 +107,7 @@
                  </div><br/>
                  
                 <div>
-                    Matt’s mission is to expose himself to as many learning opportunities as possible, share his findings, and inspire people along the way. He wants to provide value for people who aspire to live healthy and happy lives, while at the same time attracting driven people to his digital circle. Follow him on social platforms such as Instagram and Facebook, to see how the story ends.
+                    Matt’s mission is to expose himself to as many learning opportunities as possible, share his findings, and inspire people along the way. He wants to provide value for people who aspire to live healthy and happy lives, while at the same time attracting driven people to his digital circle. Follow him on social platforms such as <a target="_blank" href="https://www.instagram.com/devmattb/">Instagram</a> and <a target="_blank" href="https://www.facebook.com/devmattb/">Facebook</a>, to see how the story ends.
                 </div>
 
             </div>
@@ -115,7 +117,7 @@
         <!-- SMALL ONLY -->
         <div class="aboutOrangeDiv col s12 webOrange hide-on-med-and-up">
             <div class="center" style="display: table-cell; vertical-align: middle;">
-                <i class="fadeInFirst fas fa-user-tie white-text"></i>
+                <img style="width: 150px; border: 1px solid #333;" src="../img/profilepic.jpg" class="round circle z-depth-3" />
             </div>
         </div>
         <div id="aboutTextContainer" class="col l8 s7 white hide-on-med-and-up">
@@ -139,7 +141,7 @@
                  </div><br/>
                  
                 <div>
-                    Additionally, Matt is a extremely social and driven person who also runs a Youtube Channel where hundreds of people view his videos, with a total watch time of over 7000 minutes - a number which is, to this day, rising. 
+                    Additionally, Matt is a extremely social and driven person who also runs a <a target="_blank" href="https://www.youtube.com/channel/UCNmXzVXkobH69xQPgTX-qGA">Youtube Channel</a> where hundreds of people view his videos, with a total watch time of over 7000 minutes - a number which is, to this day, rising. 
                 </div><br/>
 
                 <div>
@@ -147,7 +149,7 @@
                  </div><br/>
                  
                 <div>
-                    Matt’s mission is to expose himself to as many learning opportunities as possible, share his findings, and inspire people along the way. He wants to provide value for people who aspire to live healthy and happy lives, while at the same time attracting driven people to his digital circle. Follow him on social platforms such as Instagram and Facebook, to see how the story ends.
+                    Matt’s mission is to expose himself to as many learning opportunities as possible, share his findings, and inspire people along the way. He wants to provide value for people who aspire to live healthy and happy lives, while at the same time attracting driven people to his digital circle. Follow him on social platforms such as <a target="_blank" href="https://www.instagram.com/devmattb/">Instagram</a> and <a target="_blank" href="https://www.facebook.com/devmattb/">Facebook</a>, to see how the story ends.
                 </div>
 
             </div>
